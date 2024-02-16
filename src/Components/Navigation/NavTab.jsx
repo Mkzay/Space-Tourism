@@ -9,7 +9,7 @@ const NavTab = () => {
       <ul className="flex gap-12 font-Barlow text-color4 text-sm/normal tracking-[0.14763rem] font-normal not-italic bg-[#FFFFFF0A] backdrop-blur-2xl py-7 px-10 lg:text-base/normal lg:tracking-[0.16875rem] lg:gap-20 lg:px-20">
         <li>
           <NavLink
-            to="Home"
+            to="/"
             className={({ isActive }) => (isActive ? activeLink : "")}
           >
             <span className="font-bold hidden lg:inline-block">00</span> HOME
@@ -26,7 +26,7 @@ const NavTab = () => {
         </li>
         <li>
           <NavLink
-            to="./Crew"
+            to="Crew"
             className={({ isActive }) => (isActive ? activeLink : "")}
           >
             <span className="font-bold hidden lg:inline-block">02</span> CREW
@@ -34,7 +34,7 @@ const NavTab = () => {
         </li>
         <li>
           <NavLink
-            to="/Technology"
+            to="Technology"
             className={({ isActive }) => (isActive ? activeLink : "")}
           >
             <span className="font-bold hidden lg:inline-block">03</span>{" "}
