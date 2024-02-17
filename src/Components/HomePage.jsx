@@ -1,6 +1,6 @@
 const HomePage = () => {
   return (
-    <div className="flex items-center flex-col gap-16 bg-[url('/Homepage.png')] bg-no-repeat bg-cover pt-24 pb-12 h-screen md:pt-44 md:bg-[url('/Homepage-tab.png')] md:gap-36 md:h-screen lg:bg-[url('/Homepage-desk.jpg')] lg:flex-row lg:pt-80 lg:pr-36 lg:pl-28 xl:pt-56">
+    <div className="flex items-center justify-center flex-col gap-16 bg-[url('/Homepage.png')] bg-no-repeat bg-cover h-screen md:bg-[url('/Homepage-tab.png')] md:gap-36 lg:bg-[url('/Homepage-desk.jpg')] lg:flex-row lg:pr-36 lg:pl-28 xl:pt-56">
       <div className="flex flex-col items-center justify-center gap-5 px-3 md:px-[7rem] lg:pl-0 lg:items-start lg:pr-[14rem]">
         <h2 className="text-xl text-color2 font-Barlow font-normal md:text-3xl">
           SO, YOU WANT TO TRAVEL TO
