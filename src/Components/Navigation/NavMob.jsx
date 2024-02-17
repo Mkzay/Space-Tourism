@@ -22,7 +22,7 @@ const NavMob = () => {
         <button onClick={menuOpen} className="flex justify-end">
           <img src="./close-menu.svg" alt="close-menu-icon" />
         </button>
-        <ul className="flex flex-col gap-8 font-Barlow text-color4 text-base/normal tracking-[0.16875rem] font-normal not-italic">
+        <ul className="flex flex-col gap-14 font-Barlow text-color4 text-base/normal tracking-[0.16875rem] font-normal not-italic">
           <li>
             <NavLink to="/">
               <span className="font-bold">00</span> HOME

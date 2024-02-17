@@ -1,5 +1,11 @@
+import DestinationPage from "../Components/DestinationPage";
+
 const Destination = () => {
-  return <div>Destination</div>;
+  return (
+    <div>
+      <DestinationPage />
+    </div>
+  );
 };
 
 export default Destination;
