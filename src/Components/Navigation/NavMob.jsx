@@ -17,7 +17,7 @@ const NavMob = () => {
           openMenu
             ? "translate-x-0  duration-300 ease-in"
             : "translate-x-[100%] duration-500 ease-out"
-        } flex flex-col gap-14 absolute top-0 right-0 w-8/12 h-full py-10 px-8 bg-[#FFFFFF0A] backdrop-blur-2xl`}
+        } flex flex-col gap-14 fixed top-0 right-0 w-8/12 h-full py-10 px-8 bg-[#FFFFFF0A] backdrop-blur-2xl`}
       >
         <button onClick={menuOpen} className="flex justify-end">
           <img src="./close-menu.svg" alt="close-menu-icon" />

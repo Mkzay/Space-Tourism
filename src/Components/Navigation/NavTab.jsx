@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
 
 const NavTab = () => {
-  const activeLink = " border-b-2 border-color3 pb-7";
+  const activeLink = "border-b-2 border-color3 pb-7";
+  const hoverLink = "hover:border-b-2 hover:border-gray-400 hover:pb-7";
 
   return (
     <div className="hidden relative md:flex">
@@ -10,7 +11,7 @@ const NavTab = () => {
         <li>
           <NavLink
             to="/"
-            className={({ isActive }) => (isActive ? activeLink : "")}
+            className={({ isActive }) => (isActive ? activeLink : hoverLink)}
           >
             <span className="font-bold hidden lg:inline-block">00</span> HOME
           </NavLink>
@@ -18,7 +19,7 @@ const NavTab = () => {
         <li>
           <NavLink
             to="Destination"
-            className={({ isActive }) => (isActive ? activeLink : "")}
+            className={({ isActive }) => (isActive ? activeLink : hoverLink)}
           >
             <span className="font-bold hidden lg:inline-block">01</span>{" "}
             DESTINATION
@@ -27,7 +28,7 @@ const NavTab = () => {
         <li>
           <NavLink
             to="Crew"
-            className={({ isActive }) => (isActive ? activeLink : "")}
+            className={({ isActive }) => (isActive ? activeLink : hoverLink)}
           >
             <span className="font-bold hidden lg:inline-block">02</span> CREW
           </NavLink>
@@ -35,7 +36,7 @@ const NavTab = () => {
         <li>
           <NavLink
             to="Technology"
-            className={({ isActive }) => (isActive ? activeLink : "")}
+            className={({ isActive }) => (isActive ? activeLink : hoverLink)}
           >
             <span className="font-bold hidden lg:inline-block">03</span>{" "}
             TECHNOLOGY

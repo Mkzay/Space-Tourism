@@ -9,7 +9,7 @@ export default {
       },
       colors: {
         color1: "#0B0D17",
-        color2: "D0D6F9",
+        color2: "#D0D6F9",
         color3: "#FFFFFF",
         color4: "#FFF",
       },
