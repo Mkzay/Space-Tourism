@@ -13,6 +13,15 @@ export default {
         color3: "#FFFFFF",
         color4: "#FFF",
       },
+      keyframes: {
+        spinning: {
+          "0%": { transform: "rotate(0deg) rotateZ(0deg)" },
+          "100%": { transform: "rotate(360deg) rotateZ(360deg)" },
+        },
+      },
+      animation: {
+        spinning: "spinning 10s linear infinite",
+      },
     },
   },
   plugins: [],

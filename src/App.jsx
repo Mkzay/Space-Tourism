@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Destination from "./Pages/Destination";
 import Crew from "./Pages/Crew";
 import Technology from "./Pages/Technology";
+import Moon from "./Components/Moon";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route exact path="/Destination" element={<Destination />} />
           <Route exact path="/Crew" element={<Crew />} />
           <Route exact path="/Technology" element={<Technology />} />
+          <Route exact path="/Moon" element={<Moon />} />
         </Routes>
       </Router>
     </div>
